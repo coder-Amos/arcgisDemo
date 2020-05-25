@@ -2,20 +2,23 @@
   <div id="app">
     
 <!-- <arcgis-one /> -->
-<arcgis-two></arcgis-two>
+<!-- <arcgis-two></arcgis-two> -->
+<arcgis-three></arcgis-three>
 
   </div>
 </template>
 
 <script>
 // import ArcgisOne from './components/ArcgisOne'
-import ArcgisTwo from './components/ArcgisTwo'
+// import ArcgisTwo from './components/ArcgisTwo'
+import ArcgisThree from './components/ArcgisThree'
 
 export default {
   name: 'app',
   components: {
     // ArcgisOne
-    ArcgisTwo
+    // ArcgisTwo
+    ArcgisThree
   },
   methods:{
    
